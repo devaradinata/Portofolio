@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="nav" id="nav">
+      <nav id="nav">
+        <div class="logo">
+          <h3><span>Devara </span>Dinata</h3>
+        </div>
+        <ul id="menu">
+          <li><a href="#nav">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="toogle">
+          <input type="checkbox" id="check" />
+          <i class="fa-solid fa-bars" id="button"></i>
+        </div>
+      </nav>
+    </div>
+    <div class="content">
+      <div class="home" id="home">
+        <div class="text">
+          <h1 data-aos="fade-right" data-aos-duration="1500">Hi i'm</h1>
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            Devara Dinata
+          </h1>
+          <h3
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="600"
+          >
+            <span id="element"></span>
+          </h3>
+        </div>
+        <div class="imgprofil">
+          <div
+            class="bg-shape1"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+          ></div>
+          <div
+            class="bg-shape2"
+            data-aos="zoom-in-up"
+            data-aos-duration="2000"
+            data-aos-delay="300"
+          ></div>
+          <img
+            src="img/Devara-removebg.png"
+            alt="Foto Profil"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          />
+        </div>
+      </div>
+      <!-- typed js -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- setup animation -->
+      <script>
+        var typed = new Typed("#element", {
+          strings: ["Web Developer", "UI/UX Designer"],
+          typeSpeed: 70,
+          loop: true,
+        });
+      </script>
+
+      <div class="about" id="about">
+        <h3>About me</h3>
+        <div class="text">
+          <div class="text1" data-aos="fade-right" data-aos-duration="1000">
+            <h4>Description</h4>
+            <p>
+              Hai saya I Putu Devara Cahya Dhika Dinata. Panggil saja Devara.
+              Saya merupakan siswa SMKN 1 Denpasar jurusan Rekayasa Perangkat
+              Lunak (RPL). Saya ingin mengembangkan skill saya dalam membangun
+              sebuah website. Saya juga tertarik mempelajari tentang Mobile
+              development. Saya ingin terus belajar dan berkembang dalam bidang
+              pengembangan web dan aplikasi untuk mengikuti perkembangan
+              teknologi terkini.
+            </p>
+          </div>
+          <div class="text2" data-aos="fade-left" data-aos-duration="1000">
+            <h4>Hobby</h4>
+            <ul>
+              <li>Bermain gitar</li>
+              <li>Bermain rindik</li>
+              <li>Membaca komik</li>
+              <li>Bermain game</li>
+            </ul>
+          </div>
+          <div class="text3" data-aos="fade-left" data-aos-duration="1000">
+            <h4>Goals</h4>
+            <ul>
+              <li>Menguasai seputar web design</li>
+              <li>Meningkatkan public speaking</li>
+              <li>Menguasai banyak bahasa pemrograman lainnya</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill" id="skill">
+        <h3>Skill</h3>
+        <div class="skillbox">
+          <div
+            class="skillbox1"
+            data-aos="flip-right"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <img src="img/html.png" alt="HTML" />
+            <h4>HTML</h4>
+          </div>
+          <div class="skillbox2" data-aos="flip-left" data-aos-duration="600">
+            <img src="img/css.png" alt="CSS" />
+            <h4>CSS</h4>
+          </div>
+        </div>
+        <h3>Studied</h3>
+        <div class="skillbox">
+          <div
+            class="studiedbox1"
+            data-aos="flip-right"
+            data-aos-duration="600"
+          >
+            <img src="img/javascript.png" alt="JS" />
+            <h4>JS</h4>
+          </div>
+          <div class="studiedbox2" data-aos="flip-left" data-aos-duration="600">
+            <img src="img/python.png" alt="PYTHON" />
+            <h4>Python</h4>
+          </div>
+          <div class="studiedbox3" data-aos="flip-left" data-aos-duration="600">
+            <img src="img/java.png" alt="JAVA" />
+            <h4>Java</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="project" id="project">
+        <h3>Project</h3>
+        <div class="projectbox">
+          <img
+            src="img/webpizza.png"
+            alt="Web Pizza"
+            class="horizontal"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+          <div class="text" data-aos="fade-left" data-aos-duration="1000">
+            <h4>Website Pizza</h4>
+            <p>
+              Website yang dibuat untuk mempromosikan usaha D'Pizza namun tidak
+              di publish dikarenakan masih rencana awal saja.
+            </p>
+          </div>
+          <img
+            src="img/port2.png"
+            alt="Portofolio Kakel"
+            class="horizontal"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+          <div class="text" data-aos="fade-left" data-aos-duration="1000">
+            <h4>Portofolio Wisnu Putra</h4>
+            <p>
+              Website ini merupakan salah satu tugas sekolah yang dimana saya
+              disuruh membuat website portofolio sederhana tentang kakak kelas
+              ataupun guru di SMKN 1 Denpasar.
+            </p>
+          </div>
+          <img
+            src="img/designfigma.png"
+            alt="Design Figma"
+            class="vertikal"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+          <div class="text" data-aos="fade-left" data-aos-duration="1000">
+            <h4>Design UI/UX Portofolio Pribadi</h4>
+            <p>
+              Design ini merupakan portofolio pribadi saya pertama kali, namun
+              dibuat dalam ukuran mobile dan menggunakan aplikasi Figma.
+            </p>
+          </div>
+          <img
+            src="img/jelajahkuliner.jpg"
+            alt="Jelajah Kuliner"
+            class="vertikal"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+          <div class="text" data-aos="fade-left" data-aos-duration="1000">
+            <h4>Aplikasi Jelajah Kuliner</h4>
+            <p>
+              Aplikasi mobile pertama yang saya buat dengan menggunakan MIT App
+              Inventor. Ini adalah tugas akhir untuk mata pelajaran Pemrograman
+              Dasar di kelas 10. Proses pembuatan aplikasi ini kurang lebih sama
+              dengan membuat UI/UX. Aplikasi ini berisi edukasi tentang makanan
+              tradisional di Indonesia. Di dalamnya juga terdapat sebuah game
+              tangkap makanan.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <h3>Contact</h3>
+        <div class="contactForm">
+          <form>
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span>Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea required=""></textarea>
+              <span>Type your message here..</span>
+            </div>
+            <div class="button">
+              <button>Send!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="address">
+        <h4>Address</h4>
+        <p>Jalan Gunung Batur Perum Nusa Bumi Ayu No 5A</p>
+      </div>
+      <div class="link">
+        <h4>Follow Me</h4>
+        <div class="icon">
+          <a href="mailto:dinatadevara@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a href="https://github.com/devaradinata"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://instagram.com/devara_dinata?igshid=MzRlODBiNWFlZA=="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2023 by Devara Dinata</p>
+      </div>
+    </footer>
+
+    <!-- icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
